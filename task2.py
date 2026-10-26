@@ -3,11 +3,12 @@ campus = {
     "Cafeteria": {"Academic Block": 200},
     "Admin Block": {"Academic Block": 120},
     "Academic Block": {"Library": 100},
+    "Parking": {"Library": 50},
     "Library": {},
 }
 
 heuristic = {"Hostel": 350, "Cafeteria": 260, "Admin Block": 150,
-             "Academic Block": 90, "Library": 0}
+             "Academic Block": 90, "Library": 0, "Parking": 50}
 
 def get_h(path):
     last_node = path[-1]
